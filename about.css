@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(194, 210, 235, 0.872); /* Background color as specified */
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgba(156, 186, 236, 0.872); /* Dark background for header */
+    color: rgb(7, 7, 7);
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: rgba(6, 6, 6, 0.872);
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.navbar a.active {
+    background-color: lightseagreen; /* Website color */
+    border-radius: 4px;
+}
+
+.navbar a:hover {
+    background-color: rgb(28, 166, 159); /* Hover effect color */
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(194, 210, 235, 0.872);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    color: lightseagreen;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #282727;
+}
+
+.about-content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #02022b;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}

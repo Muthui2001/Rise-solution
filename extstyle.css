@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;  /* Lighter grey background */
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgba(194, 210, 235, 0.872); /* Header background color from home page */
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #1a1a1a; /* Dark text for links */
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.navbar a.active {
+    background-color: lightseagreen; /* Button color from home page */
+    border-radius: 4px;
+}
+
+.navbar a:hover {
+    background-color: #20b2aa; /* Slightly darker hover effect */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #02022b; /* Dark footer background color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Button Styles */
+.btn {
+    background-color: lightseagreen; /* Home page button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #20b2aa; /* Darker button color on hover */
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+/* Login and Sign Up Forms */
+#login, #signup {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Course Styles */
+#courses {
+    background-color: white; /* White background for courses section */
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.course {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.course h3 {
+    color: #333;
+}
+
+.course-btn {
+    background-color: lightseagreen; /* Same button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.course-btn:hover {
+    background-color: #20b2aa; /* Darker color on hover */
+}
+
+/* General Information and Pictures Section */
+#generalinformation {
+    background-color: rgba(194, 210, 235, 0.872); /* Light background for general information section */
+    padding: 40px 20px;
+}
+
+.general1, .general2 {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.general1 p, .general2 p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#generalpics .pics-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.pic img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+#about {
+    background-color: white; /* White background for about section */
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about .about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}

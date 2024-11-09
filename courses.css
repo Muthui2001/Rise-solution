@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(194, 210, 235, 0.872); /* Updated background color */
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgba(158, 188, 237, 0.872); /* Dark background for header */
+    color: black;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: lightseagreen; /* Website color on hover */
+    border-radius: 4px;
+}
+
+/* Courses Section */
+#courses {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(194, 210, 235, 0.872);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#courses h2 {
+    color: lightseagreen;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#courses p {
+    font-size: 1.1em;
+    color: #313030;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.course {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.course:hover {
+    transform: translateY(-10px);
+}
+
+.course h3 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.course p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Explore Course Button */
+.course-btn {
+    background-color: lightseagreen; /* Website color for buttons */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.course-btn:hover {
+    background-color: rgb(19, 152, 146); /* Darker color on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #02022b;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
